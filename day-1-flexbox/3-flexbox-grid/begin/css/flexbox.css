@@ -31,13 +31,36 @@ div img {
 }
 
 /* grid system -- mobile first! */
+.row {
+	display: flex;
+	flex-flow: row wrap;
+}
 
+[class*="col-"] {
+	margin: 0 2%;
+}
 
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
+	.col-1 {
+		flex: 0 0 46%;
+		order: 1;
+	}
 
+	.col-2 {
+		flex: 0 0 96%;
+		order: 0;
+	}
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
+	.col-1 {
+		flex: 0 0 21%;
+		order: 0;
+	}
 
+	.col-2 {
+		flex: 0 0 46%;
+		order: 0;
+	}
 }
