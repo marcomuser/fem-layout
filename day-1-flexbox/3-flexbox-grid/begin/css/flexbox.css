@@ -49,7 +49,6 @@ div img {
 
 	.col-2 {
 		flex: 0 0 96%;
-		order: 0;
 	}
 }
 /* Desktop screen Sizes */
@@ -61,6 +60,5 @@ div img {
 
 	.col-2 {
 		flex: 0 0 46%;
-		order: 0;
 	}
 }
